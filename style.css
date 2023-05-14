@@ -1,0 +1,58 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.all{
+    background-color: hotpink;
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+    padding: 1em
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em gray;
+    padding: 3em;
+    width: 75%;
+    position: relative;
+    background-color: white;
+    color: rebeccapurple;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+.buttons{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    height: 40px;
+    width: 100px;
+    border-radius: 0.5em;
+    font-family: poppins;
+}
+
+.buttons #pause{
+    background-color: blue;
+    color: white;
+}
+
+.buttons #start{
+    background-color: red;
+    color: white;
+}
+
+.buttons #reset{
+    background-color: green;
+    color: white;
+}
